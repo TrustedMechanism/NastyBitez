@@ -19,7 +19,8 @@ The plugin scans for known problematic byte signatures, including but not limite
 By identifying these patterns, the plugin aids reverse engineers in uncovering obfuscation techniques designed to mislead disassemblers and improve the accuracy of static analysis in Ghidra.
 
 Example Before Script:\
-![image1](https://github.com/user-attachments/assets/9f477f94-6a6f-4f8f-a624-36ae5d549b42)
+![image1](https://github.com/user-attachments/assets/8898a36e-b571-4a29-9646-a95d52f2fa57)
+
 
 Example After Script:\
-![image2](https://github.com/user-attachments/assets/404ddfab-14e0-4fc3-a137-8fb7ff486eb2)
+![image2](https://github.com/user-attachments/assets/1bd38a60-3c44-498b-a9a9-b9674f2f2015)
