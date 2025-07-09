@@ -1,7 +1,5 @@
 # NastyBitez Detector for Ghidra
 
-🔗 [NastyBitez GitHub Repository](https://github.com/TrustedMechanism/NastyBitez)
-
 This Ghidra plugin detects "nasty bytes" — byte patterns deliberately crafted to hinder accurate disassembly by triggering confusing control flow or causing Ghidra to interpret jumps to invalid or out-of-bounds addresses. These patterns often exploit instruction overlaps, hidden calls/jumps, or anomalous instruction sequences to obscure program logic and disrupt function boundary analysis.
 
 The plugin scans for known problematic byte signatures, including but not limited to:
